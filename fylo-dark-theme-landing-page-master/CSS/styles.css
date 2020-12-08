@@ -89,6 +89,10 @@ h6 {
   font-weight: bold;
 }
 
+.header-right a:hover {
+  color: white;
+}
+
 /* Intro Section */
 .intro {
   width: 500px;
