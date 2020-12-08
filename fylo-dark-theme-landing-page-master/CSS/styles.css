@@ -188,9 +188,9 @@ button:hover {
   font-size: 0.7rem;
 }
 
-/* .arrow:hover {
+.seehowlink:hover .circle{
    fill: white;
-} */
+}
 
 /* testimonials Section */
 .testimonials {
