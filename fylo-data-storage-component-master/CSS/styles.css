@@ -1,0 +1,218 @@
+body {
+  background-color: #0c122c;
+  overflow-x: hidden;
+}
+
+.main {
+  background-color: #0c122c;
+  background-image: url("../images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: 0% 140%;
+  width: 1000px;
+  margin: auto;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #7982b9;
+  margin: 10px 30px 15px;
+}
+
+.content {
+  height: 600px;
+  padding-left: 150px;
+  padding-top: 215px;
+}
+
+.fylo {
+  height: 130px;
+  width: 250px;
+  background-color: #253371e0;
+  border-radius: 5% 35% 5% 5%;
+  margin-left: 50px;
+  float: left;
+}
+
+.fyloimage {
+  margin: 25px;
+  width: 35%;
+  height: auto;
+}
+
+.docimage {
+  margin: 7px;
+}
+
+.iconimage, .uploadimage {
+  margin: 10px 7px;
+}
+
+.image1 {
+  height: 40px;
+  width: 40px;
+  background-color: #0b122e;
+  border-radius: 20%;
+  margin-left: 25px;
+  text-align: center;
+  float: left;
+}
+
+.image2, .image3 {
+  height: 40px;
+  width: 40px;
+  background-color: #0b122e;
+  border-radius: 20%;
+  margin-left: 10px;
+  text-align: center;
+  float: left;
+}
+
+.container2 {
+  height: 123px;
+  width: 470px;
+  background-color: #253371e0;
+  border-radius: 2% 2% 2% 2%;
+  margin-left: 30px;
+  float: left;
+  margin-top: 25px;
+  position: relative;
+}
+
+.progress {
+  height: 13px;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.progress-bar {
+  background-color: #ff7f96;
+}
+
+.far {
+  background-color: #fffffe;
+}
+
+.progresslable {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.start, .end {
+  font-size: 0.8rem;
+  color: #7982b9;
+  margin-top: 5px;
+  width: 100px;
+}
+
+.end {
+  text-align: right;
+}
+
+.grayfont {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.box {
+  width: 150px;
+  margin-top: -40px;
+  margin-left: 290px;
+  background: #feffff;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #0c122c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: relative;
+  border-radius: 5% 5% 0% 5%;
+}
+
+.GB:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #feffff;
+  border-top: 10px solid #feffff;
+  border-bottom: 10px solid transparent;
+  right: 0px;
+  bottom: -19px;
+}
+
+/* media Query */
+@media (max-width: 1024px) {
+  body {
+    background-color: #0c122c;
+  }
+
+  .main {
+    background-color: #0c122c;
+    background-image: url("../images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    width: 300px;
+    margin: auto;
+  }
+
+  .content {
+    height: 500px;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 100px;
+  }
+
+  .container2 {
+    height: 150px;
+    width: 250px;
+    margin-left: 0px;
+    float: left;
+    position: relative;
+  }
+
+  .fylo {
+    margin-left: 0px;
+    float: left;
+  }
+
+  .progress {
+    height: 13px;
+    width: 200px;
+  }
+
+  .box {
+    width: 150px;
+    margin-top: -30px;
+    margin-left: 90px;
+    background: #feffff;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #0c122c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    border-radius: 5% 5% 0% 5%;
+    top: 170px;
+    left: -25px;
+  }
+
+  .GB:before {
+    content: none;
+  }
+
+  .progresslable {
+    width: 200px;
+  }
+
+  .attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

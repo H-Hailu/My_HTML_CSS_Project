@@ -1,0 +1,118 @@
+  body {
+  background-color: #19a2ae;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(../images/bg-pattern-top.svg),
+      url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,
+    no-repeat;
+  background-position: -350px -590px,
+       550px 300px;
+
+}
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  width: 340px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  position: relative;
+}
+
+.card-image img {
+  width: 340px;
+  height: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.profile-image img {
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid #fff;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.profile-image img:hover {
+  transform: scale(1.1);
+}
+
+.card-content h3 {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 20px 5px 20px;
+  margin: 0;
+}
+
+.card-content p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px 5px 20px;
+  margin: 0;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.thicker {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.icons h6{
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  color: grey;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+span {
+  color: grey;
+}
+
+.bottomcontainer {
+  position: absolute;
+  top: 500px;
+  left: 900px;
+  margin-top: -400px;
+  margin-left: -150px;
+  margin-bottom: -500px;
+}
+
+hr {
+  margin-bottom: 0px;
+}

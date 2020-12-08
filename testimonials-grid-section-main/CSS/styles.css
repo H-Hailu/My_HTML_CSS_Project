@@ -1,0 +1,304 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+body{
+  background-color: #edf2f8;
+}
+.container-fluid {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* Daniel section */
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #ffefff;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  Line-height: 1.5;
+}
+
+.Col1div {
+  background: 85% 2% no-repeat url("../images/bg-pattern-quotation.svg");
+  background-color: #733eca;
+  border-radius: 1%;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+.DanielImage {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #a27bd4;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.NameTitle {
+  color: white;
+  margin-left: 50px;
+}
+
+.NameDaniel {
+  font-family: "Montserrat";
+  color: #e9c9ff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.TitleDaniel {
+  font-family: 'Ubuntu', sans-serif;
+  color: #a783dd;
+  font-size: 0.7rem;
+}
+
+.Description {
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #bb97f1;
+  margin-bottom: 0px;
+}
+
+/* End Daniel */
+
+/* Jonathan section */
+
+.Jonathanh6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #f9ffff;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  Line-height: 1.5;
+}
+
+.Col3div {
+  background-color: #49556b;
+  border-radius: 2%;
+  padding: 20px;
+}
+
+.JonathanImage {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #f0eff4;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.NameTitleJonathan {
+  color: white;
+  margin-left: 50px;
+}
+
+.NameJonathan {
+  font-family: "Montserrat";
+  color: #d3d9e5;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.TitleJonathan {
+  font-family: 'Ubuntu', sans-serif;
+  color: #9da5b8;
+  font-size: 0.7rem;
+}
+
+.DescriptionJonathan {
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #bac2d5;
+  margin-bottom: 0px;
+}
+
+/* End Jonathan */
+
+
+
+/* Jeanette Harmon section */
+.Col4div {
+  border-radius: 2%;
+  background-color: #fefefe;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.col4Profile{
+  margin-left: 4px;
+  margin-right: 20px;
+}
+
+.col4Description{
+  margin-left: 4px;
+  margin-right: 20px;
+}
+
+h5 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #464b51;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  Line-height: 1.5;
+}
+
+.JeanetteImage {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fefdf9;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.NameTitleJeanette {
+  color: white;
+  margin-left: 50px;
+}
+
+.NameJeanette {
+  font-family: "Montserrat";
+  color: #5d6266;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.TitleJeanette {
+  font-family: 'Ubuntu', sans-serif;
+  color: #c3c4c8;
+  font-size: 0.7rem;
+}
+
+.DescriptionJeanette {
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #888b90;
+  margin-bottom: 0px;
+}
+
+/* End Jeanette */
+
+/* Patrick Section */
+
+.Col5div {
+  border-radius: 1%;
+  background-color: #18202d;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Patrickh6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #f8fcff;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  Line-height: 1.5;
+}
+
+.PatrickImage {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #5e4d94;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.NameTitlePatrick {
+  color: white;
+  margin-left: 50px;
+}
+
+.NamePatrick {
+  font-family: "Montserrat";
+  color: #fbffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.TitlePatrick {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5c606c;
+  font-size: 0.7rem;
+}
+
+.DescriptionPatrick {
+  font-size: 0.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #babec9;
+  margin-bottom: 0px;
+}
+
+/* End Patrick */
+
+/* Kira Whittle Section */
+
+.Col2div {
+  border-radius: 2%;
+  background-color: #ffffff;
+  padding: 18px;
+}
+
+.Kirah6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #434b58;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  Line-height: 1.5;
+}
+
+.KiraImage {
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #ffffff;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.NameTitleKira {
+  color: white;
+  margin-left: 50px;
+}
+
+.NameKira {
+  font-family: "Montserrat";
+  color: #53585c;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.TitleKira {
+  font-family: 'Ubuntu', sans-serif;
+  color: #b9bdc0;
+  font-size: 0.7rem;
+}
+
+.DescriptionKira {
+  font-size: 0.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #86898e;
+  margin-bottom: 0px;
+}
+
+/* Kira Whittle end */
