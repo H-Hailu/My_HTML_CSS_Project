@@ -1,0 +1,361 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  max-height: 900px;
+}
+
+/* similar font size */
+.Atowalk, .message, .message3, .message4, .min1 {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.Mainbox {
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 800px;
+  background: #FAFAFA;
+}
+
+.rectangle {
+  position: absolute;
+  width: 510px;
+  height: 1018px;
+  left: -90px;
+  top: -318px;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  border-radius: 255px;
+}
+
+.messageboxmain {
+  position: absolute;
+  width: 247px;
+  height: 505px;
+  left: 363px;
+  top: 148px;
+  background: #FFFFFF;
+  box-shadow: 0 30px 60px -10px rgba(62, 39, 83, 0.251202);
+  border-radius: 30px;
+}
+
+.messagebox {
+  position: absolute;
+  width: 228px;
+  height: 483px;
+  left: 372.5px;
+  top: 159px;
+  background: #F5F3F7;
+  border: 1px solid rgba(62, 39, 83, 0.0509178);
+  border-radius: 20px;
+}
+
+.whitetop {
+  position: absolute;
+  z-index: 1;
+  width: 129px;
+  height: 29px;
+  left: 422px;
+  top: 148px;
+  background: #FFFFFF;
+  border-radius: 0 0 14px 14px;
+}
+
+/* Rectangle Copy 5 */
+.topbox {
+  width: 228px;
+  height: 66px;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  box-shadow: 0 0 13px rgba(62, 39, 83, 0.251202);
+  border-radius: 20px 20px 6px 6px;
+}
+
+.Group4 {
+  display: flex;
+  width: 196px;
+  height: 24px;
+  padding: 20px 15px;
+}
+
+.Group4 .fas {
+  color: white;
+  margin-right: 7px;
+  margin-left: 0;
+  line-height: 2;
+}
+
+.icon {
+  margin-left: 60px;
+}
+
+.icon .fas {
+  color: white;
+}
+
+.Profileimage {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  margin-top: 5px;
+}
+
+.Name {
+  height: 13px;
+  width: 100px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.Atowalk {
+  height: 9px;
+  width: 100px;
+  line-height: 9px;
+  color: #D99EFF;
+  padding-left: 10px;
+}
+
+/* simple booking */
+.bookingtext {
+  position: absolute;
+  width: 445px;
+  height: 183px;
+  left: 735px;
+  top: 309px;
+}
+
+.bookingtitle {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47.4px;
+  color: #3E2753;
+}
+
+.discription {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #A39DA9;
+}
+
+/* message section */
+.Group10 {
+  width: 128px;
+  height: 34px;
+  background: #EEE5F4;
+  border-radius: 10px 10px 4px 10px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.message {
+  height: 22px;
+  line-height: 11px;
+  color: #9341C8;
+}
+
+.Group102 {
+  width: 128px;
+  height: 34px;
+  background: #EEE5F4;
+  border-radius: 10px 10px 4px 10px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.Group9 {
+  width: 136px;
+  height: 113px;
+}
+
+.Group6 {
+  width: 136px;
+  height: 40px;
+  margin-left: 92px;
+}
+
+.Dogimage1 {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px;
+}
+
+.Dogimage2 {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px;
+}
+
+.Dogimage3 {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px;
+}
+
+.Group5 {
+  width: 128px;
+  height: 34px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 4px 10px;
+  margin: 10px 10px 10px 92px;
+  padding: 5px 10px;
+}
+
+.message3 {
+  height: 22px;
+  line-height: 11px;
+  color: #6E5D7E;
+}
+
+.Group8 {
+  width: 80px;
+  height: 23px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 4px 10px;
+  margin: 10px 10px 10px 140px;
+  padding: 5px 10px;
+}
+
+.message4 {
+  width: 80px;
+  line-height: 11px;
+  color: #6E5D7E;
+}
+
+.Group12 {
+  width: 160px;
+  height: 125px;
+}
+
+.Group7 {
+  width: 128px;
+  height: 45px;
+  background: #EEE5F4;
+  border-radius: 10px 10px 4px 10px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.Group11 {
+  display: flex;
+  align-content: space-between;
+  width: 160px;
+  height: 32px;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.045318);
+  border-radius: 10px 10px 4px 10px;
+  margin: 7px 10px 5px 10px;
+  padding: 8px 10px 5px 10px;
+}
+
+.Group11 .far {
+  padding-right: 15px;
+  color: #e472ff;
+}
+
+.min1 {
+  line-height: 11px;
+  color: #FFFFFF;
+  padding-right: 20px;
+  margin-top: 3px;
+}
+
+.price1 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+  color: #FFFFFF;
+  margin-top: 3px;
+}
+
+.Group14 {
+  display: flex;
+  width: 213px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 16.9544px;
+  margin: 20px 10px;
+}
+
+.message6 {
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: -0.0703125px;
+  color: #C5C9CC;
+  padding: 15px;
+}
+
+.Group14 .fas {
+  line-height: 1.5;
+  margin-left: 80px;
+  font-size: 1.5rem;
+  color: #3E2753;
+}
+
+.grayRectangle {
+  position: absolute;
+  width: 510px;
+  height: 1018px;
+  left: 1115px;
+  top: 100px;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  opacity: 0.03;
+  border-radius: 255px;
+}
+
+/* media Query */
+@media (max-width: 1024px) {
+  .Mainbox {
+    width: 375px;
+    height: 936px;
+  }
+
+  .rectangle {
+    left: -322px;
+    top: -509px;
+  }
+
+  .messageboxmain {
+    left: 64px;
+    top: 64px;
+  }
+
+  .messagebox {
+    left: 73.5px;
+    top: 76px;
+  }
+
+  .whitetop {
+    left: 123px;
+    top: 65px;
+  }
+
+  /* simple booking */
+  .bookingtext {
+    width: 311px;
+    height: 239px;
+    left: 32px;
+    top: 633px;
+  }
+
+  .bookingtitle, .discription {
+    text-align: center;
+  }
+
+  .grayRectangle {
+    left: 188px;
+    top: 445px;
+  }
+}
