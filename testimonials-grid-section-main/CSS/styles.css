@@ -302,3 +302,31 @@ h5 {
 }
 
 /* Kira Whittle end */
+
+/* media Query */
+@media (max-width: 1028px) {
+
+  .col3, .col2 {
+    margin-top: 20px;
+  }
+
+
+  .Col2div, .Col3div, .Col4div, .Col5div
+  {
+    margin-left: 5px;
+    padding: 20px;
+  }
+
+  .col4, .col5
+  {
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+
+  .col2
+  {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+
+}
